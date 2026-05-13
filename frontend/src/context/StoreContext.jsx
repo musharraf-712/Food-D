@@ -11,7 +11,7 @@ const StoreContextProvider = (props) => {
   const [token,setToken] = useState("")
   const [food_list,setFoodList] = useState([])
     //backend localhost
-  const url = "http://localhost:4000"
+  const url = "https://food-d-890e.onrender.com"
 
 
   const fetchFoodList = async ()=>{
